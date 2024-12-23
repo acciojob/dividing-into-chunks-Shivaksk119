@@ -14,6 +14,9 @@ const divide = (arr, n) => {
 		subarr.push(arr[i])
 		currSum += arr[i];
 	}
+	if(subarr.length>0){
+		ans.push(subarr)
+	}
 	return ans;
 };
 
